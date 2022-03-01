@@ -8,11 +8,11 @@ on:
       - main
     
     paths:
-      - 'packages/container/**'
+      - './mfp/packages/container/**'
 
 default:
   run:
-    working-directory: packages/container
+    working-directory: ./mfp/packages/container
 
 jobs:
   build:
