@@ -1,16 +1,13 @@
 name: deplay-containe
 
-// when we want to run
-// what events we are waiting for
 on: 
   push:
-    brances:
+    branches:
       - main
-    
     paths:
       - './mfp/packages/container/**'
 
-default:
+defaults:
   run:
     working-directory: ./mfp/packages/container
 
